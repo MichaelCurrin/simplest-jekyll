@@ -1,1 +1,2 @@
-# MichaelCurrin.github.io
+# Michael Currin's Github pages repo
+
