@@ -1,8 +1,11 @@
+---
+title: Home
+---
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>{{ page.home }}</title>
   </head>
   <body>
     <h1>Hello World!</h1>
