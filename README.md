@@ -6,15 +6,13 @@
 
 - [michaelcurrin.github.io/simplest-jekyll/](https://michaelcurrin.github.io/simplest-jekyll/)
 
-Learn more about [GitHub Pages](https://pages.github.com/) for hosting a [Jekyll](jekyllrb.com/) site.
-
 
 ## How to use this project
 
 ### Setup
 
 1. Click _Use this template_ to create a new repo.
-2. Enable Github Pages in your repo's settings.
+2. Enable [GitHub Pages](https://pages.github.com/) in your repo's settings.
 3. Check your repo's _environment_ tab to see when the deploy is done.
 4. Click _View deployment_ to see the live site.
 
