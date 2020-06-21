@@ -12,14 +12,22 @@
 ### Setup
 
 1. Click _Use this template_ to create a new repo.
-2. Enable [GitHub Pages](https://pages.github.com/) in your repo's settings.
+2. Enable [GitHub Pages](https://pages.github.com/) in your repo's settings. Choose `master` branch and `/` path option.
 3. Check your repo's _environment_ tab to see when the deploy is done.
 4. Click _View deployment_ to see the live site.
 
 ### Customize
 
-- Edit the `index.md` file with your own content. This is your homepage.
-- Update the `README.md` with your own details. This is not actually used in the deployed site.
-- Check the docs and tutorials on the [Jekyll](jekyllrb.com/) site.
-
-_Note: On Netlify, the `/` path gives an error and so `/index.html` must be used. I don't have a workaround for this, though my other Jekyll projects work fine on Netlify._
+- Update the `README.md` with your own details. This is not actually used in the deployed site but is visible locally and on Github.
+- Themes
+    - Edit the theme in [\_config.yml](/_config.yml) if you want another theme.
+    - You can also use the Github Pages section of the repo Settings to preview visually. 
+    - Note only themes supported by Github Pages are covered (about 10) but if you use the _remote_theme_ field in your config you can reference more themes.
+    - For installing and running locally, you'll need to setup a `Gemfile` in addition to a config file in order to download a theme gem and any plugins.
+- As with most Jekyll sites, the [index.md](/index.md) is used as the homepage. 
+    - It has front matter at the top so any Liquid will be applied. 
+    - Edit your `index.md` file with your own content as HTML or markdown. 
+    - You can rename it to `index.html` if you only want plain HTML.
+    - You can remove the front matter at the top to remove Liquid formatting and any theming.
+- If you want to, add more pages at the root and break out any common HTMl such as header or head or navbar into `_includes` folder or `_layouts` folder (neither are covered in the scope of this project but are common for Jekyll projects).
+- See the docs and tutorials on the [Jekyll](https:jekyllrb.com/) site for more info.
