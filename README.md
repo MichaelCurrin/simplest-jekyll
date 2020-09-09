@@ -11,6 +11,14 @@
 
 </div>
 
+## Preview
+
+<div align="center">
+
+![Sample screenshot](/sample.png)
+
+</div>
+
 
 ## About
 
