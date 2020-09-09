@@ -54,7 +54,11 @@ If you want a more full-fledged example of a multi-page site with posts, gems, l
     - You can remove the front matter at the top to remove Liquid formatting and any theming.
 - If you want to, add more pages at the root and break out any common HTMl such as header or head or navbar into `_includes` folder or `_layouts` folder (neither are covered in the scope of this project but are common for Jekyll projects).
 - See the docs and tutorials on the [Jekyll](https:jekyllrb.com/) site for more info.
-
+- Running Jekyll locally
+    - You might choose to add `gem 'jekyll', '~> 3.9` to the `Gemfile` and install it as a project gem.
+    - Or just use a globally-installed Jekyll for your user.
+    - [Bundler](https://bundler.io) is recommended for installing gems and running Jekyll.
+    
 
 ## License
 
