@@ -43,9 +43,9 @@ If you want a more full-fledged example of a multi-page site with posts, gems, l
 1. Click _Use This Template_ to create a new repo in your own account. You can leave the name as `simplest-jekyll`.
 2. Enable [GitHub Pages](https://pages.github.com/) in your repo's settings. Choose to serve from `master` branch and the `/` path option.
 3. Check your repo's _environment_ tab to see when the deploy is done.
-4. Click _View deployment_ to see the live site.
-    - See the the URL in the previous section.
-    - Note that `/simplest-jekyll/index.html` is available immediately but it takes a few minutes until Github Pages makes `/simplest-jekyll/` available.
+4. Click _View deployment_ to see the live site. e.g. https://michaelcurrin.github.io/simplest-jekyll/
+
+Note that `/simplest-jekyll/index.html` is available immediately but it takes a few minutes until Github Pages makes `/simplest-jekyll/` available.
 
 ### Customize
 
