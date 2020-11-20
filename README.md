@@ -11,6 +11,7 @@
 
 </div>
 
+
 ## Preview
 
 <div align="center">
@@ -31,7 +32,7 @@ This is a template and live demo project. It shows how little you need to setup 
     - for the theme. That handles the layout and styling.
     - Other standard values like baseurl, title and description have been left out. When building on GH Pages, these will be inferred for you by the GH Pages gem.
 - `Gemfile` 
-    - Not actually used by GH Pages but it allows you to install the theme locally.
+    - Not actually used by GH Pages but it allows you to install the theme locally with Bundle and run the site with Jekyll. If you don't want to use a user-level Jekyll, you'll need Jekyll added to this file.
 
 If you want a more full-fledged example of a multi-page site with posts, gems, layouts, etc. then checkout my [jekyll-blog-demo](https://github.com/MichaelCurrin/jekyll-blog-demo) repo. That can be used as a template and demo site too.
 
