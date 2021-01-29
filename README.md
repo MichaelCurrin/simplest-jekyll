@@ -4,6 +4,10 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/simplest-jekyll)](https://github.com/MichaelCurrin/simplest-jekyll/tags/?include_prereleases&sort=semver)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
+[![Ruby - >=2.6](https://img.shields.io/badge/Ruby->=2.6-blue?logo=ruby&logoColor=white)](https://ruby-lang.org)
+[![Jekyll - 3.9](https://img.shields.io/badge/Jekyll-3.9-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
+
+
 <div align="center">
     
 [![Use this template](https://img.shields.io/badge/Use_template-Generate-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/simplest-jekyll/generate)
