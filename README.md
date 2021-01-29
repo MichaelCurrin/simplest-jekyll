@@ -26,14 +26,14 @@
 
 This is a template and live demo project. It shows how little you need to setup to get a Jekyll site on GH Pages.
 
-- `index.md` 
+- [index.md](/index.md)
     - For the homepage, the only page in this case.
     - If you leave out this page, then `README.md` will be used as your homepage.
-- `_config.yml` 
-    - for the theme. That handles the layout and styling.
-    - Other standard values like baseurl, title and description have been left out. When building on GH Pages, these will be inferred for you by the GH Pages gem.
-- `Gemfile` 
-    - Not actually used by GH Pages but it allows you to install the theme locally with Bundle and run the site with Jekyll. If you don't want to use a user-level Jekyll, you'll need Jekyll added to this file.
+- [\_config.yml](/_config.yml)
+    - For setting theme. That handles the layout and styling.
+    - Other standard values like `baseurl`, `title` and `description` have been left out. When building on GH Pages, these will be inferred for you by the GH Pages gem.
+- [Gemfile](/Gemfile)
+    - This is not actually used by GH Pages, but it allows you to install the Jekyll theme locally using Bundler. Delete this file if you don't need to run your site locally.
 
 If you want a more full-fledged example of a multi-page site with posts, gems, layouts, etc. then checkout my [jekyll-blog-demo](https://github.com/MichaelCurrin/jekyll-blog-demo) repo. That can be used as a template and demo site too.
 
@@ -65,8 +65,9 @@ Note that `/simplest-jekyll/index.html` is available immediately but it takes a 
 - If you want to, add more pages at the root and break out any common HTMl such as header or head or navbar into `_includes` folder or `_layouts` folder (neither are covered in the scope of this project but are common for Jekyll projects).
 - See the docs and tutorials on the [Jekyll](https:jekyllrb.com/) site for more info.
 - Optionally run Jekyll locally:
-    - You might choose to add Jekyll 3 and install it as a project gem using [Bundler](https://bundler.io) - see [Gemfile](https://github.com/MichaelCurrin/jekyll-blog-demo/blob/master/Gemfile) of another project.
-    - Or use a globally-installed Jekyll for your user (not recommended).
+    - Install Ruby and [Bundler](https://bundler.io).
+    - Install project gems - Jekyll and the theme gem.
+    - Run Jekyll dev server.
 
 
 ## License
