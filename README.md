@@ -7,7 +7,7 @@
 <div align="center">
     
 [![View site GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://michaelcurrin.github.io/simplest-jekyll/)
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/simplest-jekyll/generate)
+[![Use this template](https://img.shields.io/badge/Use_this_template-Generate-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/simplest-jekyll/generate)
 
 </div>
 
@@ -63,12 +63,11 @@ Note that `/simplest-jekyll/index.html` is available immediately but it takes a 
     - You can remove the front matter at the top to remove Liquid formatting and any theming.
 - If you want to, add more pages at the root and break out any common HTMl such as header or head or navbar into `_includes` folder or `_layouts` folder (neither are covered in the scope of this project but are common for Jekyll projects).
 - See the docs and tutorials on the [Jekyll](https:jekyllrb.com/) site for more info.
-- Running Jekyll locally
-    - You might choose to add `gem 'jekyll', '~> 3.9` to the `Gemfile` and install it as a project gem.
-    - Or just use a globally-installed Jekyll for your user.
-    - [Bundler](https://bundler.io) is recommended for installing gems and running Jekyll.
-    
+- Optionally run Jekyll locally:
+    - You might choose to add Jekyll 3 and install it as a project gem using [Bundler](https://bundler.io) - see [Gemfile](https://github.com/MichaelCurrin/jekyll-blog-demo/blob/master/Gemfile) of another project.
+    - Or use a globally-installed Jekyll for your user (not recommended).
+
 
 ## License
 
-Released under [MIT](/LICENSE).
+Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
