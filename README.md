@@ -75,6 +75,7 @@ Note that `/simplest-jekyll/index.html` is available immediately but it takes a 
     - Install Ruby and [Bundler](https://bundler.io).
     - Install project gems - Jekyll and the theme gem.
     - Run Jekyll dev server.
+    - For fuller instructions see [docs](https://github.com/MichaelCurrin/jekyll-blog-demo/tree/master/docs) of Jekyll Blog Demo. You'll need to add a `Makefile` as well to match those commands.
 
 
 ## License
