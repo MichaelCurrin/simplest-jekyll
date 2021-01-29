@@ -27,13 +27,16 @@
 This is a template and live demo project. It shows how little you need to setup to get a Jekyll site on GH Pages.
 
 - [index.md](/index.md)
-    - For the homepage, the only page in this case.
+    - For the homepage - the only page in this case.
     - If you leave out this page, then `README.md` will be used as your homepage.
 - [\_config.yml](/_config.yml)
-    - For setting theme. That handles the layout and styling.
-    - Other standard values like `baseurl`, `title` and `description` have been left out. When building on GH Pages, these will be inferred for you by the GH Pages gem.
+    - Set the theme - that handles the layout and styling.
+    - Enable Jekyll Sitemap plugin - enabling it in Gemfile is not enough. Note that other plugins will be enabled for you like optional frontmatter.
+    - Other standard values like `baseurl`, `title` and `description` have been left out of the config. When building on GH Pages, these will be inferred for you by the GH Pages gem.
 - [Gemfile](/Gemfile)
-    - This is not actually used by GH Pages, but it allows you to install the Jekyll theme locally using Bundler. Delete this file if you don't need to run your site locally.
+    - This is not actually used by GH Pages, but it allows you to install the Jekyll theme locally using Bundler. 
+    - Use a single gem `github-pages` if you want to match all the gems on GH Pages (which can be heavy to install). 
+    - Delete this file if you don't need to run your site locally.
 
 If you want a more full-fledged example of a multi-page site with posts, gems, layouts, etc. then checkout my [jekyll-blog-demo](https://github.com/MichaelCurrin/jekyll-blog-demo) repo. That can be used as a template and demo site too.
 
