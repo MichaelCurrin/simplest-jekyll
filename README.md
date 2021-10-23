@@ -21,7 +21,7 @@
 
 <div align="center">
     <a href="https://michaelcurrin.github.io/simplest-jekyll/">
-        <img src="/sample.png" alt="Sample screenshot" title="Go to website" width="500" />
+        <img src="/sample.png" alt="Sample screenshot" title="Go to website" width="700" />
     </a>
 </div>
 
