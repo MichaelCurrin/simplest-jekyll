@@ -78,6 +78,14 @@ Note that `/simplest-jekyll/index.html` is available immediately but it takes a 
     - For fuller instructions see [docs](https://github.com/MichaelCurrin/jekyll-blog-demo/tree/master/docs) of Jekyll Blog Demo. You'll need to add a `Makefile` as well to match those commands.
 
 
+## Related projects
+
+
+- [![MichaelCurrin - jekyll-blog-demo](https://img.shields.io/static/v1?label=MichaelCurrin&message=jekyll-blog-demo&color=blue&logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo) - default blog generated with Jekyll CLI. Using a theme, content, style set up, gems, and a Makefile.
+- [![MichaelCurrin - jekyll-gh-actions-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=jekyll-gh-actions-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart) - using Jekyll 4, a theme, GitHub Actions, and GitHub Pages.
+- [![MichaelCurrin - jekyll-themed-site-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=jekyll-blog-demo&color=blue&logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo) - minimal Jekyll site with a theme but no Gemfile.
+
+
 ## License
 
 Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
